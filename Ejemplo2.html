@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola Mundo!!</h1>
+    <input id= "hola-input" type="text">
+    <button id="hola-btn">Dime Hola Porfa</button>
+    <script>
+        document.getElementById("hola-btn").addEventListener('click', function() {
+            alert(document.getElementById("hola-input").value);
+
+        } )
+
+    </script>
+<input id= "Num1-input" type="text">
+<input id= "Num2-input" type="text">
+<button id="suma-btn">Suma</button>
+<script>
+    document.getElementById("suma-btn").addEventListener('click', function(){
+        alert(parseInt(document.getElementById("Num1-input").value) + parseInt (document.getElementById("Num2-input").value) );
+
+    }) 
+
+
+</script>
+
+</body>
+</html>
