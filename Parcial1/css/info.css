@@ -1,0 +1,25 @@
+#info {
+    background: #333;
+    color: #ffd700;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-marcas {
+    margin: 20px;
+
+}
+
+.info-marcas img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #ffd700;
+
+}
